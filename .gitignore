@@ -1,78 +1,33 @@
-# Compiled object files
-*.o
-*.obj
+# Ignore everything by default
+*
 
+# But keep these files
+!*.h
 
-# Compiled dynamic libraries
-*.so
-*.dll
-*.dylib
+# Optional: if you want to keep only kidsWithCandies.h specifically
+!kidsWithCandies.h
 
-# Compiled static libraries
-*.a
-*.lib
-
-# Executables
+# Ignore build artifacts and directories
 *.exe
-*.out
-*.app
-
-# Debug files
+*.ilk
 *.pdb
-*.idb
-
-# Build directories
-/build/
-/bin/
-/lib/
-/dist/
+*.obj
+*.log
+*.tlog/
+*.recipe
+*.enc
 /Debug/
 /Release/
+/x64/
+/build/
+/bin/
 
-# CMake files
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-*.cmake
-
-# Visual
-*.vs
-
-# Ignore compiled object files and binaries
-*.o
-*.obj
-*.exe
-*.out
-*.app
-
-# Ignore Visual Studio solution and project files
+# Ignore Visual Studio solution/project files
 *.sln
 *.vcxproj*
 *.filters
 *.user
 
-# Ignore main program entry file
-main.cpp
-
-
-
-# Ignore CMake generated files
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-*.cmake
-
-# Ignore IDE-specific settings
+# Ignore IDE configs
 .vscode/
 .idea/
-
-# Ignore temporary and backup files
-*~
-*.swp
-*.tmp
-*.log
-
-# Keep class files (do NOT ignore *.cpp or *.h globally)
-# Example: ClassName.cpp, ClassName.h will still be tracked
