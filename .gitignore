@@ -1,7 +1,7 @@
 # Compiled object files
-*.vs
 *.o
 *.obj
+
 
 # Compiled dynamic libraries
 *.so
@@ -37,3 +37,42 @@ Makefile
 *.cmake
 
 # Visual
+*.vs
+
+# Ignore compiled object files and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Ignore Visual Studio solution and project files
+*.sln
+*.vcxproj*
+*.filters
+*.user
+
+# Ignore main program entry file
+main.cpp
+
+
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Ignore IDE-specific settings
+.vscode/
+.idea/
+
+# Ignore temporary and backup files
+*~
+*.swp
+*.tmp
+*.log
+
+# Keep class files (do NOT ignore *.cpp or *.h globally)
+# Example: ClassName.cpp, ClassName.h will still be tracked
